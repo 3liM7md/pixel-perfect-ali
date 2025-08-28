@@ -27,14 +27,12 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>Built with</span>
-            <Heart className="w-4 h-4 text-primary" />
-            <span>using React, TypeScript & Tailwind CSS</span>
+          <div className="text-sm text-muted-foreground">
+            <span>Made by Ali Adil</span>
           </div>
 
           <div className="text-center text-xs text-muted-foreground">
-            <p>&copy; {new Date().getFullYear()} Ali Adil. All rights reserved.</p>
+            <p>&copy; 2025 Ali Adil. All rights reserved.</p>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const Hero = () => {
     <section id="about" className="min-h-screen flex items-center justify-center px-6 pt-16">
       <div className="max-w-4xl mx-auto text-center">
         <div className="relative mb-8">
-          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden ring-4 ring-primary/30 glow-effect">
+          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden ring-4 ring-primary/30 glow-effect">
             <img 
               src={profilePhoto} 
               alt="Ali Adil - Applied Computer Science Student"
