@@ -35,7 +35,6 @@ const Footer = () => {
 
           <div className="text-center text-xs text-muted-foreground">
             <p>&copy; {new Date().getFullYear()} Ali Adil. All rights reserved.</p>
-            <p className="mt-1">Last updated: {new Date().toLocaleDateString()}</p>
           </div>
         </div>
       </div>

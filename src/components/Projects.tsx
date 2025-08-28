@@ -138,49 +138,11 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div className="flex gap-2 pt-4 border-t border-card-border">
-                  <Button 
-                    variant="outline" 
-                    size="sm" 
-                    className="flex-1"
-                    onClick={() => {
-                      // In a real implementation, this would link to the actual project
-                      console.log(`View ${project.title} project`);
-                    }}
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    View Project
-                  </Button>
-                  <Button 
-                    variant="ghost" 
-                    size="sm"
-                    onClick={() => {
-                      // In a real implementation, this would link to the GitHub repo
-                      console.log(`View ${project.title} code`);
-                    }}
-                  >
-                    <Github className="w-4 h-4 mr-2" />
-                    Code
-                  </Button>
-                </div>
               </CardContent>
             </Card>
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <Button 
-            variant="outline" 
-            size="lg"
-            onClick={() => {
-              // Link to GitHub profile
-              window.open('https://github.com/3liM7md', '_blank');
-            }}
-          >
-            <Github className="w-5 h-5 mr-2" />
-            View All Projects on GitHub
-          </Button>
-        </div>
       </div>
     </section>
   );
